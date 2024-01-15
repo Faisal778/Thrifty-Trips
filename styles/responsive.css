@@ -1,4 +1,7 @@
+/* For mobile screen  */
 @media only screen and (max-width:600px) {
+
+/* nav section responsive styles */
     .nav {
         flex-direction: column;
         margin: 50px auto;
@@ -9,9 +12,36 @@
         flex-direction: column;
         justify-content: center;
         margin: auto;
+        display: none;
     }
 
     .nav-items a {
         margin: auto;
+        display: none;
+    }
+
+/* banner section responsive styles */
+    .banner-input-div {
+        display: flex;
+        min-width: 400px;
+        flex-direction: column;
+    }
+
+    .banner-text>h1 {
+        color: #FFF;
+        font-size: 22px;
+        font-weight: 800;
+    }
+
+    .banner-text>p {
+        color: #FFF;
+        text-align: center;
+        line-height: 21px;
+    }
+
+    .banner-input {
+        justify-content: center;
+        min-width: 90%;
+        margin: auto auto 5px auto;
     }
 }
