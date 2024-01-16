@@ -519,4 +519,18 @@ hr {
         object-fit: cover;
         border-radius: 15px;
     }
+    /* why choose us responsive styles for desktop */
+    .why-us-cards {
+        display: grid;
+        grid-template-areas: 'card1 card1 card2 card2' '. card3 card3 .';
+    }
+    .why-us-card1 {
+        grid-area: card1;
+    }
+    .why-us-card2 {
+        grid-area: card2;
+    }
+    .why-us-card3 {
+        grid-area: card3;
+    }
 }
