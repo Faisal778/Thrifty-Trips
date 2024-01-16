@@ -261,4 +261,66 @@
         border: 1px solid rgba(41, 206, 246, 0.20);
         background: rgba(41, 206, 246, 0.05);
     }
+    /* newsletter section styles  */
+    /* newsletter form part */
+    .newsletter-form {
+        display: flex;
+        flex-direction: column;
+        max-width: 85%;
+        border-radius: 15px;
+        border: 1px solid #FF5400;
+        margin: auto;
+        margin-top: 25px;
+    }
+    .newsletter-form>.title,
+    .description {
+        text-align: start;
+        margin-left: 8%;
+    }
+    .newsletter-form>.title {
+        margin-top: 20px;
+    }
+    .newsletter-form>.input {
+        width: 85%;
+        margin: auto;
+        margin-top: 15px;
+        border-radius: 8px;
+        background: rgba(19, 19, 24, 0.05);
+    }
+    .newsletter-form>.btn-primary {
+        width: 85%;
+        margin: auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    /* newsletter image part */
+    .newsletter-image {
+        width: 85%;
+        margin: 20px auto auto;
+        position: relative;
+    }
+    .newsletter-image img {
+        width: 100%;
+    }
+    /* newsletter offer part */
+    .offer {
+        position: absolute;
+        width: 215px;
+        height: 80px;
+        transform: rotate(-19.628deg);
+        flex-shrink: 0;
+        border-radius: 10px;
+        background: #FF5400;
+        margin-left: 40%;
+        bottom: 13%;
+        margin-top: 15px;
+    }
+    .offer>p {
+        text-align: center;
+        color: #FFF;
+    }
+    .offer>.description {
+        margin-top: 12px;
+    }
+    /* newsletter section ends */
 }
