@@ -377,7 +377,7 @@ html {
 
 .offer {
     position: absolute;
-    width: 215px;
+    width: 245px;
     height: 80px;
     transform: rotate(-20deg);
     flex-shrink: 0;
@@ -390,7 +390,7 @@ html {
 
 .offer>p {
     margin: 0px auto;
-    font-size: 24px;
+    font-size: 20px;
     text-align: center;
     color: #FFF;
 }
