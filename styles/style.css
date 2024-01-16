@@ -448,11 +448,10 @@ hr {
     padding-bottom: 20px;
 }
 
-@media screen and (max-width:600px) {}
-
 @media screen and (min-width:992px) {
     body {
         max-width: 1250px;
+        margin: auto;
     }
     /* nav bar styles */
     .nav-icon {
