@@ -72,7 +72,6 @@ html {
     justify-content: space-between;
     max-width: 85%;
     margin-top: 10px;
-    padding-right: 15px;
 }
 
 .nav-title {
@@ -876,7 +875,7 @@ hr {
     }
     .nav-items a {
         text-decoration: none;
-        margin-right: 50px;
+        margin-left: 50px;
         font-size: 20px;
         color: #424247;
     }
