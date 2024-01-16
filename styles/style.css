@@ -26,6 +26,32 @@
     font-weight: 800;
 }
 
+.title {
+    color: #131318;
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.description {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: .9rem;
+    text-align: center;
+    line-height: 24px;
+    max-width: 85%;
+    margin: auto;
+}
+
+.common-title-description-div {
+    width: 85%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+    /* border: 3px solid navajowhite; */
+}
+
 
 /* design for Mobile devices , display of maximum 600px */
 
@@ -139,29 +165,6 @@
         max-width: 100%;
     }
     /* choose desination section styles */
-    .choose-destination {
-        width: 85%;
-        justify-content: center;
-        align-items: center;
-        margin: auto;
-        margin-top: 20px;
-        /* border: 3px solid navajowhite; */
-    }
-    .choose-destination-title {
-        color: #131318;
-        font-size: 1.3rem;
-        text-align: center;
-        font-weight: 800;
-        margin-bottom: 15px;
-    }
-    .choose-destination-description {
-        color: rgba(19, 19, 24, 0.70);
-        font-size: .9rem;
-        text-align: center;
-        line-height: 24px;
-        max-width: 85%;
-        margin: auto;
-    }
     .choose-destination-image-part {
         width: 85%;
         margin: auto;
@@ -221,5 +224,38 @@
     .img-7 {
         grid-area: img-7;
         position: relative;
+    }
+    /* Why Choose US section styles */
+    .why-us-cards {
+        margin: auto;
+        margin-top: 25px;
+    }
+    .us-card-title {
+        color: #131318;
+        font-size: 1.3rem;
+        font-weight: 800;
+        margin-top: 15px;
+    }
+    .us-card-description {
+        color: #5A5A5D;
+        font-size: 1rem;
+        line-height: 24px;
+        margin-top: 15px;
+    }
+    .why-us-card1,
+    .why-us-card2,
+    .why-us-card3 {
+        width: 85%;
+        margin: auto;
+        margin-top: 15px;
+        border-radius: 15px;
+        /* border: 2px solid red; */
+        padding: 15px;
+        border: 1px solid rgba(233, 68, 68, 0.20);
+        background: rgba(233, 68, 68, 0.05);
+    }
+    .why-us-card2 {
+        border: 1px solid rgba(41, 206, 246, 0.20);
+        background: rgba(41, 206, 246, 0.05);
     }
 }
