@@ -377,9 +377,9 @@ html {
 
 .offer {
     position: absolute;
-    width: 50%;
-    height: 30%;
-    transform: rotate(-19.628deg);
+    width: 215px;
+    height: 80px;
+    transform: rotate(-20deg);
     flex-shrink: 0;
     border-radius: 10px;
     background: #FF5400;
@@ -389,6 +389,7 @@ html {
 }
 
 .offer>p {
+    margin: 0px auto;
     text-align: center;
     color: #FFF;
 }
@@ -480,6 +481,7 @@ hr {
     }
     .banner {
         display: flex;
+        width: 85%;
         flex-direction: column;
         justify-content: center;
         align-items: center;
